@@ -1,2 +1,10 @@
-name = Soheil
-print(name)
+mablagh = 15000
+
+if mablagh > 50000:
+    mablagh_nahayi = mablagh * 0.8
+elif mablagh >= 20000:
+    mablagh_nahayi = mablagh * 0.9
+else:
+    mablagh_nahayi = mablagh
+
+print(int(mablagh_nahayi))
